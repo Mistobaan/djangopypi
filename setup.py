@@ -33,6 +33,7 @@ setup(
     url='http://github.com/benliles/chishop',
     license='BSD',
     packages=find_packages(),
+    package_data={'': ['*.*',]},
     include_package_data=True,
     zip_safe=False,
     install_requires=[
