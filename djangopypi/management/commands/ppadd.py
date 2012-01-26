@@ -1,6 +1,6 @@
 """
 Management command for adding a package to the repository. Supposed to be the
-equivelant of calling easy_install, but the install target is the chishop.
+equivalent of calling easy_install, but the install target is the chishop.
 """
 
 from __future__ import with_statement
