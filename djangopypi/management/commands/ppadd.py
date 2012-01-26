@@ -129,7 +129,7 @@ added"""
         filename = os.path.basename(path)
 
         file = File(open(path, "rb"))
-        release.distribution.save(filename, file)
+        release.distributions.save(filename, file)
         release.save()
         print "%s-%s added" % (meta.name, meta.version)
 
